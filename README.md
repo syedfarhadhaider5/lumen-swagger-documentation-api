@@ -19,10 +19,10 @@ Before you begin, ensure you have met the following requirements:
    https://github.com/syedfarhadhaider5/lumen-swagger-documentation-api.git
 2. Navigate to the project directory:
    ```bash
-    cd your-repository
+    cd auto-center-api
 3. Install dependencies:
    ```bash
-    composer install
+    composer install or update
 4. Create Database
    ```bash
     add into .env
@@ -43,7 +43,6 @@ Before you begin, ensure you have met the following requirements:
     php artisan db:seed --class=DealershipsTableSeeder
     php artisan db:seed --class=MakesTableSeeder
     php artisan db:seed --class=ModelsTableSeeder
-    php artisan db:seed --class=UsersTableSeeder
     php artisan db:seed --class=VehiclesTableSeeder
 8. swagger publish
    ```bash
