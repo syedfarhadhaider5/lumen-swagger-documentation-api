@@ -56,7 +56,7 @@ Before you begin, ensure you have met the following requirements:
 1. To start the development server, run:
    ```bash
     php -S localhost:8000  public/index.php
-2. Access swagger api documentation
+2. Access swagger api documentation ui
    ```bash
    http://localhost:8000/api/documentation
 3. Access swagger api documentation
